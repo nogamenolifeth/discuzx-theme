@@ -1,0 +1,48 @@
+.nav-item{
+	display:block;
+}
+.header-img{
+    width: 100%;
+    margin-bottom: 0px;
+}
+@media (max-width:480px) {
+	.header-img{
+		display:none;	
+	}
+}
+.board-icon{
+	size:50px;
+}
+footer{
+	min-height:100px;
+	background-color:#405258;
+	color:#fff;
+	padding:15px;
+	font-size:20px;
+}
+.footer-copy{
+	text-align: right;
+	font-size:16px;
+}
+.custom-jb{
+	background-image:url('img/bg-mobile.jpg');
+	background-size: 100% auto;
+    margin-bottom: 0px;
+}
+.mycontent{
+	min-height:400px;
+}
+@media (min-width:480px) {
+	.custom-jb{
+		display:none;	
+	}
+}
+.logo-txt{
+	text-shadow: 0 0 15px #339999;
+	padding:5px;
+	height:25px;
+	color:white;
+}
+.jb-content{
+	background-color:rgba(31,187,221,0.5);
+}
